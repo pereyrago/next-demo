@@ -23,7 +23,7 @@ export default function Hero(props: Props) {
         <p className={s.p}>{description}</p>
         <button className={s.button}>{button}</button>
       </main>
-      <aside className={s.main}>
+      <aside className={s.aside}>
         <Image
           className={s.img}
           height={550}
