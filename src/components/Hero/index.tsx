@@ -25,6 +25,7 @@ export default function Hero(props: Props) {
       </main>
       <aside className={s.aside}>
         <Image
+          quality={80}
           className={s.img}
           height={550}
           width={500}
