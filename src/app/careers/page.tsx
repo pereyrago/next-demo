@@ -8,7 +8,11 @@ export default async function Home() {
   const users = data?.users;
   return (
     <>
-      <Hero />
+      <Hero
+        title="Conviértete en un Full Stack Developer"
+        subTitle=""
+        description="Un programa intensivo en línea que simula un entorno de trabajo real y te prepara para una carrera exitosa como desarrollador Full Stack."
+      />
       <Container title="Testimonios">
         <>
           {users?.map((user) => (

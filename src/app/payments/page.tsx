@@ -3,12 +3,17 @@ import Container from "@/containers/BaseContainer";
 import getAllUsers from "@/api/users";
 import Card from "@/components/TestimonyCard";
 
-export default async function Home() {
+export default async function Payments() {
   const data = await getAllUsers();
   const users = data?.users;
   return (
     <>
-      <Hero />
+      <Hero
+        title="Educación de calidad, a tu alcance"
+        description="Simple, flexible y transparente"
+        subTitle=""
+        button="otro boton"
+      />
       <Container title="Testimonios">
         <>
           {users?.map((user) => (
